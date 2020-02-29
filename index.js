@@ -58,7 +58,7 @@ inquirer
 
       
        fs.appendFile("generatedREADME.md", 
-       "Project Title: " + answers.projectTitle + "\n \nTable of Contents: \nInstallation \nUsage \nLicense \nContributing \nTests \n \nInstallation: \n" + answers.installation + "\nUsage: \n" + answers.usage + "\nLicense: \n" + answers.license + "\nContributing: \n" + answers.contributors + "\nTests: \n" + answers.tests + "\n \n \n" + "![User's profile picture]" + picURL + "\n \nUser: " + answers.username + "\nEmail: " + email ,
+       "Project Title: " + answers.projectTitle + "\n \nTable of Contents: \n1. Installation \n2. Usage \n3. License \n4. Contributing \n5. Tests \n6. User Info\n \nInstallation: \n" + answers.installation + "\nUsage: \n" + answers.usage + "\nLicense: \n" + answers.license + "\nContributing: \n" + answers.contributors + "\nTests: \n" + answers.tests + "\n \n \n" + "![User's profile picture]" + picURL + "\n \nUser: " + answers.username + "\nEmail: " + email ,
        function(err) {
             if (err) {
               throw err;
